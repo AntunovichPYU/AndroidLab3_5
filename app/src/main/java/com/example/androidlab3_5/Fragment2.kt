@@ -15,10 +15,10 @@ class Fragment2 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val root = inflater.inflate(R.layout.fragment_2, container, false)
-        root.findViewById<Button>(R.id.to_first_button).setOnClickListener {
+        root.findViewById<Button>(R.id.bnToFirst).setOnClickListener {
             findNavController().navigate(R.id.action_fragment2_to_fragment1)
         }
-        root.findViewById<Button>(R.id.to_third_button).setOnClickListener {
+        root.findViewById<Button>(R.id.bnToThird).setOnClickListener {
             findNavController().navigate(R.id.action_fragment2_to_fragment3)
         }
         return root

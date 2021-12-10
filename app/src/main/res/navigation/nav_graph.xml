@@ -46,7 +46,9 @@
             app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_fragment3_to_fragment1"
-            app:destination="@id/fragment1" />
+            app:destination="@id/fragment1"
+            app:popUpTo="@id/fragment1"
+            app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_fragment3_to_aboutActivity3"
             app:destination="@id/aboutActivity" />
